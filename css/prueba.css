@@ -1,0 +1,475 @@
+@media screen and ( min-width: 950px){
+
+#background-wrap {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0%;
+  left: 0%;
+  z-index: -1;
+
+}
+
+/* KEYFRAMES */
+
+@-webkit-keyframes animateBubble {
+    0% {
+        margin-top:  18vh;
+    }
+    100% {
+        margin-top: -50%;
+    }
+}
+
+@-moz-keyframes animateBubble {
+    0% {
+        margin-top: 18vh;
+    }
+    100% {
+        margin-top: -50%;
+    }
+}
+
+@keyframes animateBubble {
+    0% {
+        margin-top:  18vh;
+    }
+    100% {
+        margin-top: -50%;
+    }
+}
+
+@-webkit-keyframes sideWays { 
+    0% { 
+        margin-left:-1vw;
+    }
+    100% { 
+        margin-left:17vw;
+    }
+}
+
+@-moz-keyframes sideWays { 
+    0% { 
+        margin-left:-1vw;
+    }
+    100% { 
+        margin-left:17vw;
+    }
+}
+
+@keyframes sideWays { 
+    0% { 
+        margin-left:-1vw;
+    }
+    100% { 
+        margin-left:17vw;
+    }
+}
+
+/* ANIMATIONS */
+
+.x1 {
+    -webkit-animation: animateBubble 3.8s linear infinite, sideWays 1.7s ease-in-out infinite alternate;
+	-moz-animation: animateBubble 3.8s linear infinite, sideWays 1.7s ease-in-out infinite alternate;
+	animation: animateBubble 3.8s linear infinite, sideWays 1.7s ease-in-out infinite alternate;
+	
+ 	top:  40%;
+    left: 49%;
+
+	-webkit-transform: scale(0.55);
+	-moz-transform: scale(0.55);
+	transform: scale(0.55);
+	background-image: url('../Imagenes/mas4.png');
+
+}
+
+.x2 {
+    -webkit-animation: animateBubble 3.5s linear infinite, sideWays 1.3s ease-in-out infinite alternate;
+	-moz-animation: animateBubble 3.5s linear infinite, sideWays 1.3s ease-in-out infinite alternate;
+	animation: animateBubble 3.5s linear infinite, sideWays 1.3s ease-in-out infinite alternate;
+	
+ 	top:  40%;
+    left: 49%;
+
+	-webkit-transform: scale(0.4);
+	-moz-transform: scale(0.4);
+	transform: scale(0.4);
+	background-image: url('../Imagenes/mas2.png');
+
+}
+
+.x3 {
+    -webkit-animation: animateBubble 5.3s linear infinite, sideWays 2.5s ease-in-out infinite alternate;
+	-moz-animation: animateBubble 5.3s linear infinite, sideWays 2.5s ease-in-out infinite alternate;
+	animation: animateBubble 5.3s linear infinite, sideWays 2.5s ease-in-out infinite alternate;
+	
+ 	top:  40%;
+    left: 49%;
+
+	-webkit-transform: scale(0.5);
+	-moz-transform: scale(0.5);
+	transform: scale(0.5);
+	background-image: url('../Imagenes/mas2.png');
+	background-size: cover;
+
+}
+
+.x4 {
+    -webkit-animation: animateBubble 4.5s linear infinite, sideWays 3.7s ease-in-out infinite alternate;
+	-moz-animation: animateBubble 4.5s linear infinite, sideWays 3.7s ease-in-out infinite alternate;
+	animation: animateBubble 4.5s linear infinite, sideWays 3.7s ease-in-out infinite alternate;
+	
+ 	top:  40%;
+    left: 49%;
+	-webkit-transform: scale(0.3);
+	-moz-transform: scale(0.3);
+	transform: scale(0.3);
+	background-image: url('../Imagenes/mas1.png');
+
+}
+.x5 {
+    -webkit-animation: animateBubble 7s linear infinite, sideWays 2.6s ease-in-out infinite alternate;
+	-moz-animation: animateBubble 7s linear infinite, sideWays 2.6s ease-in-out infinite alternate;
+	animation: animateBubble 7s linear infinite, sideWays 2.6s ease-in-out infinite alternate;
+	
+ 	top:  40%;
+    left: 49%;
+
+	-webkit-transform: rotate(80deg);
+	-moz-transform: rotate(80deg);
+	transform: rotate(80deg);
+	-webkit-transform: scale(0.2);
+	-moz-transform: scale(0.2);
+	transform: scale(0.2);
+	background-image: url('../Imagenes/mas1.png');
+
+}
+.x6 {
+    -webkit-animation: animateBubble 4.8s linear infinite, sideWays 1s ease-in-out infinite alternate;
+	-moz-animation: animateBubble 4.8s linear infinite, sideWays 1s ease-in-out infinite alternate;
+	animation: animateBubble 4.8s linear infinite, sideWays 1s ease-in-out infinite alternate;
+	
+ 	top:  40%;
+    left: 49%;
+	-webkit-transform: rotate(-80deg);
+	-moz-transform: rotate(-80deg);
+	transform: rotate(-80deg);
+	-webkit-transform: scale(0.55);
+	-moz-transform: scale(0.55);
+	transform: scale(0.55);
+	background-image: url('../Imagenes/mas4.png');
+
+}
+.x7 {
+    -webkit-animation: animateBubble2.9s linear infinite, sideWays 0.9s ease-in-out infinite alternate;
+	-moz-animation: animateBubble 2.9s linear infinite, sideWays 0.9s ease-in-out infinite alternate;
+	animation: animateBubble 2.9s linear infinite, sideWays 0.9s ease-in-out infinite alternate;
+	
+ 	top:  40%;
+    left: 49%;
+
+	-webkit-transform: scale(0.2);
+	-moz-transform: scale(0.2);
+	transform: scale(0.2);
+	background-image: url('../Imagenes/mas2.png');
+
+}
+.x8 {
+    -webkit-animation: animateBubble 3.5s linear infinite, sideWays 3.7s ease-in-out infinite alternate;
+	-moz-animation: animateBubble 3.5s linear infinite, sideWays 3.7s ease-in-out infinite alternate;
+	animation: animateBubble 3.5s linear infinite, sideWays 3.7s ease-in-out infinite alternate;
+	
+ 	top:  40%;
+    left: 49%;
+
+	-webkit-transform: scale(0.4);
+	-moz-transform: scale(0.4);
+	transform: scale(0.4);
+	background-image: url('../Imagenes/mas4.png');
+
+}
+.x9 {
+    -webkit-animation: animateBubble 6s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	-moz-animation: animateBubble 6s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	animation: animateBubble 6s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	
+ 	top:  40%;
+    left: 49%;
+
+
+	-webkit-transform: scale(0.6);
+	-moz-transform: scale(0.6);
+	transform: scale(0.6);
+	background-image: url('../Imagenes/mas2.png');
+	
+
+}
+.x10 {
+    -webkit-animation: animateBubble 4.2s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	-moz-animation: animateBubble 4.2s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	animation: animateBubble 4.2s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	
+ 	top:  40%;
+    left: 49%;
+
+	-webkit-transform: scale(0.5);
+	-moz-transform: scale(0.5);
+	transform: scale(0.5);
+	background-image: url('../Imagenes/mas1.png');
+
+}
+
+
+/* OBJECTS */
+
+.bubble {
+    height: 15vw;
+	position: absolute;
+	width: 15vw;
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: cover;
+    z-index: 1
+    
+}
+
+
+}
+
+
+@media screen and ( max-width: 950px){
+
+#background-wrap {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0%;
+  left: 0%;
+  z-index: -1;
+
+}
+
+/* KEYFRAMES */
+
+@-webkit-keyframes animateBubble {
+    0% {
+        margin-top:  18vh;
+    }
+    100% {
+        margin-top: 0%;
+    }
+}
+
+@-moz-keyframes animateBubble {
+    0% {
+        margin-top: 18vh;
+    }
+    100% {
+        margin-top: 0%;
+    }
+}
+
+@keyframes animateBubble {
+    0% {
+        margin-top:  18vh;
+    }
+    100% {
+        margin-top: 0%;
+    }
+}
+
+@-webkit-keyframes sideWays { 
+    0% { 
+        margin-left:-1vw;
+    }
+    100% { 
+        margin-left:17vw;
+    }
+}
+
+@-moz-keyframes sideWays { 
+    0% { 
+        margin-left:-1vw;
+    }
+    100% { 
+        margin-left:17vw;
+    }
+}
+
+@keyframes sideWays { 
+    0% { 
+        margin-left:-1vw;
+    }
+    100% { 
+        margin-left:17vw;
+    }
+}
+
+/* ANIMATIONS */
+
+.x1 {
+    -webkit-animation: animateBubble 3.8s linear infinite, sideWays 1.7s ease-in-out infinite alternate;
+	-moz-animation: animateBubble 3.8s linear infinite, sideWays 1.7s ease-in-out infinite alternate;
+	animation: animateBubble 3.8s linear infinite, sideWays 1.7s ease-in-out infinite alternate;
+	
+ 	top:  40%;
+    left: 29%;
+
+	-webkit-transform: scale(0.55);
+	-moz-transform: scale(0.55);
+	transform: scale(0.55);
+	background-image: url('../Imagenes/mas4.png');
+
+}
+
+.x2 {
+    -webkit-animation: animateBubble 3.5s linear infinite, sideWays 1.3s ease-in-out infinite alternate;
+	-moz-animation: animateBubble 3.5s linear infinite, sideWays 1.3s ease-in-out infinite alternate;
+	animation: animateBubble 3.5s linear infinite, sideWays 1.3s ease-in-out infinite alternate;
+	
+ 	top:  40%;
+    left: 29%;
+
+	-webkit-transform: scale(0.4);
+	-moz-transform: scale(0.4);
+	transform: scale(0.4);
+	background-image: url('../Imagenes/mas2.png');
+
+}
+
+.x3 {
+    -webkit-animation: animateBubble 5.3s linear infinite, sideWays 2.5s ease-in-out infinite alternate;
+	-moz-animation: animateBubble 5.3s linear infinite, sideWays 2.5s ease-in-out infinite alternate;
+	animation: animateBubble 5.3s linear infinite, sideWays 2.5s ease-in-out infinite alternate;
+	
+ 	top:  40%;
+    left: 29%;
+
+	-webkit-transform: scale(0.5);
+	-moz-transform: scale(0.5);
+	transform: scale(0.5);
+	background-image: url('../Imagenes/mas2.png');
+	background-size: cover;
+
+}
+
+.x4 {
+    -webkit-animation: animateBubble 4.5s linear infinite, sideWays 3.7s ease-in-out infinite alternate;
+	-moz-animation: animateBubble 4.5s linear infinite, sideWays 3.7s ease-in-out infinite alternate;
+	animation: animateBubble 4.5s linear infinite, sideWays 3.7s ease-in-out infinite alternate;
+	
+ 	top:  40%;
+    left: 29%;
+	-webkit-transform: scale(0.3);
+	-moz-transform: scale(0.3);
+	transform: scale(0.3);
+	background-image: url('../Imagenes/mas1.png');
+
+}
+.x5 {
+    -webkit-animation: animateBubble 7s linear infinite, sideWays 2.6s ease-in-out infinite alternate;
+	-moz-animation: animateBubble 7s linear infinite, sideWays 2.6s ease-in-out infinite alternate;
+	animation: animateBubble 7s linear infinite, sideWays 2.6s ease-in-out infinite alternate;
+	
+ 	top:  40%;
+    left: 29%;
+
+	-webkit-transform: rotate(80deg);
+	-moz-transform: rotate(80deg);
+	transform: rotate(80deg);
+	-webkit-transform: scale(0.2);
+	-moz-transform: scale(0.2);
+	transform: scale(0.2);
+	background-image: url('../Imagenes/mas1.png');
+
+}
+.x6 {
+    -webkit-animation: animateBubble 4.8s linear infinite, sideWays 1s ease-in-out infinite alternate;
+	-moz-animation: animateBubble 4.8s linear infinite, sideWays 1s ease-in-out infinite alternate;
+	animation: animateBubble 4.8s linear infinite, sideWays 1s ease-in-out infinite alternate;
+	
+ 	top:  40%;
+    left: 29%;
+	-webkit-transform: rotate(-80deg);
+	-moz-transform: rotate(-80deg);
+	transform: rotate(-80deg);
+	-webkit-transform: scale(0.55);
+	-moz-transform: scale(0.55);
+	transform: scale(0.55);
+	background-image: url('../Imagenes/mas4.png');
+
+}
+.x7 {
+    -webkit-animation: animateBubble2.9s linear infinite, sideWays 0.9s ease-in-out infinite alternate;
+	-moz-animation: animateBubble 2.9s linear infinite, sideWays 0.9s ease-in-out infinite alternate;
+	animation: animateBubble 2.9s linear infinite, sideWays 0.9s ease-in-out infinite alternate;
+	
+ 	top:  40%;
+    left: 29%;
+
+	-webkit-transform: scale(0.2);
+	-moz-transform: scale(0.2);
+	transform: scale(0.2);
+	background-image: url('../Imagenes/mas2.png');
+
+}
+.x8 {
+    -webkit-animation: animateBubble 3.5s linear infinite, sideWays 3.7s ease-in-out infinite alternate;
+	-moz-animation: animateBubble 3.5s linear infinite, sideWays 3.7s ease-in-out infinite alternate;
+	animation: animateBubble 3.5s linear infinite, sideWays 3.7s ease-in-out infinite alternate;
+	
+ 	top:  40%;
+    left: 29%;
+
+	-webkit-transform: scale(0.4);
+	-moz-transform: scale(0.4);
+	transform: scale(0.4);
+	background-image: url('../Imagenes/mas4.png');
+
+}
+.x9 {
+    -webkit-animation: animateBubble 6s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	-moz-animation: animateBubble 6s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	animation: animateBubble 6s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	
+ 	top:  40%;
+    left: 29%;
+
+
+	-webkit-transform: scale(0.6);
+	-moz-transform: scale(0.6);
+	transform: scale(0.6);
+	background-image: url('../Imagenes/mas2.png');
+	
+
+}
+.x10 {
+    -webkit-animation: animateBubble 4.2s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	-moz-animation: animateBubble 4.2s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	animation: animateBubble 4.2s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	
+ 	top:  40%;
+    left: 29%;
+
+	-webkit-transform: scale(0.5);
+	-moz-transform: scale(0.5);
+	transform: scale(0.5);
+	background-image: url('../Imagenes/mas1.png');
+
+}
+
+
+/* OBJECTS */
+
+.bubble {
+    height: 15vw;
+	position: absolute;
+	width: 15vw;
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: cover;
+    z-index: 1
+    
+}
+
+}

@@ -1,0 +1,1095 @@
+@media screen and ( min-width: 950px) {
+    html {
+        overflow: hidden;
+        background: rgb(0, 160, 200);
+        animation: cambioFondo 5s;
+        animation-delay: 5s;
+        animation-timing-function: ease-in-out;
+        -webkit-animation-fill-mode: forwards;
+    }
+    p.let1 {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        top: 10%;
+        left: 30%;
+        width: 20vw;
+        display: block;
+        position: absolute;
+        margin-right: -50%;
+        margin-bottom: -50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        -moz-text-align-last: center;
+        text-align-last: center;
+        color: rgb(249, 173, 1);
+        font-size: 1.5vw;
+        opacity: 0;
+        animation: fadeIn 5s;
+        animation-delay: 5s;
+        animation-timing-function: ease-in-out;
+        -webkit-animation-fill-mode: forwards;
+    }
+    p.let2 {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        top: 10%;
+        left: 70%;
+        width: 20vw;
+        display: block;
+        position: absolute;
+        margin-right: -50%;
+        margin-bottom: -50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        -moz-text-align-last: center;
+        text-align-last: center;
+        color: rgb(17, 191, 209);
+        font-size: 1.5vw;
+        opacity: 0;
+        animation: fadeIn 5s;
+        animation-delay: 5s;
+        animation-timing-function: ease-in-out;
+        -webkit-animation-fill-mode: forwards;
+    }
+    span.bd {
+        font-weight: bold;
+    }
+    div.flechas {
+        position: absolute;
+        display: block;
+        left: 15%;
+        top: 25%;
+        width: 70vw;
+        z-index: 10;
+        font-size: 1.5vw;
+        opacity: 0;
+        animation: fadeIn 5s;
+        animation-delay: 5s;
+        animation-timing-function: ease-in-out;
+        -webkit-animation-fill-mode: forwards;
+        z-index: 0;
+    }
+    img.flecha1 {
+        position: relative;
+        display: inline-block;
+        left: 20.5%;
+        top: 10%;
+        width: 1vw;
+        z-index: 0;
+    }
+    img.flecha2 {
+        position: relative;
+        display: inline-block;
+        left: 76%;
+        top: 10%;
+        width: 1vw;
+        z-index: 0;
+    }
+    div.Contenedor {
+        position: absolute;
+        top: 28%;
+        left: 15%;
+        width: 30vw;
+        height: 30vw;
+        z-index: 10;
+    }
+    div.Contenedor2 {
+        position: absolute;
+        top: 28%;
+        left: 55%;
+        width: 30vw;
+        height: 30vw;
+        z-index: 10;
+    }
+    div.Contenedor3 {
+        position: absolute;
+        top: 28%;
+        left: 35%;
+        width: 30vw;
+        height: 30vw;
+        z-index: 10;
+    }
+    div.equ2 {
+        opacity: 0;
+        margin-right: -50%;
+        margin-bottom: -50%;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+        position: absolute;
+        width: 10.5vw;
+        animation: fadeIn 5s;
+        animation-delay: 5s;
+        animation-timing-function: ease-in-out;
+        -webkit-animation-fill-mode: forwards;
+        z-index: 10;
+    }
+    div.equ1 {
+        opacity: 0;
+        margin-right: -50%;
+        margin-bottom: -50%;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+        position: absolute;
+        width: 10.5vw;
+        animation: fadeIn 5s;
+        animation-delay: 5s;
+        animation-timing-function: ease-in-out;
+        -webkit-animation-fill-mode: forwards;
+        z-index: 10;
+    }
+    .marketing {
+        margin: 0;
+        top: 48%;
+        left: 65%;
+        width: 10.5vw;
+        z-index: 3;
+        animation: fadeIn 5s;
+        animation-delay: 5s;
+        animation-timing-function: ease-in-out;
+        -webkit-animation-fill-mode: forwards;
+        z-index: 2;
+    }
+    .branding {
+        margin: 0;
+        display: block;
+        padding: 0;
+        top: 48%;
+        left: 25%;
+        width: 10.5vw;
+        z-index: 3;
+        animation: fadeIn 5s;
+        animation-delay: 5s;
+        animation-timing-function: ease-in-out;
+        -webkit-animation-fill-mode: forwards;
+        z-index: 2;
+    }
+    div.bra {
+        margin: 0;
+        display: block;
+        padding: 0;
+        line-height: 1;
+        display: block;
+        position: absolute;
+        z-index: 1;
+    }
+    div.bra2 {
+        padding: 0;
+        line-height: 1;
+        display: block;
+        position: relative;
+        width: 30vw;
+        height: 30vw;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        z-index: 1;
+    }
+    img.xbrand {
+        padding: 0;
+        line-height: 1;
+        position: relative;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        width: 30vw;
+        height: 30vw;
+        opacity: 0;
+        animation: fadeIn 5s;
+        animation-delay: 5s;
+        animation-timing-function: ease-in-out;
+        -webkit-animation-fill-mode: forwards;
+        z-index: 1;
+    }
+    div.mark {
+        display: block;
+        position: absolute;
+        width: 30vw;
+        height: 30vw;
+        margin: auto;
+        z-index: 1;
+    }
+    div.mark2 {
+        display: block;
+        position: absolute;
+        width: 30vw;
+        height: 30vw;
+        top: 0%;
+        left: 0%;
+        z-index: 1;
+    }
+    img.xmark {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        width: 30vw;
+        opacity: 0;
+        animation: fadeIn 5s;
+        animation-delay: 5s;
+        animation-timing-function: ease-in-out;
+        -webkit-animation-fill-mode: forwards;
+        z-index: 1;
+    }
+    div.R360 {
+        display: block;
+        position: absolute;
+        top: 50%;
+        bottom: 50%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        z-index: 0;
+    }
+    img.Q360 {
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        margin-bottom: -50%;
+        transform: translate(-50%, -50%);
+        width: 9vw;
+        opacity: 0;
+        animation: fadeIn 5s;
+        animation-delay: 5s;
+        animation-timing-function: ease-in-out;
+        -webkit-animation-fill-mode: forwards;
+        z-index: 0;
+    }
+    div.pepas {
+        animation: xAxis 20s ease-in, yAxis 10s ease-in !important;
+        animation-fill-mode: forwards;
+    }
+    .pepas img {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: auto;
+        z-index: 5;
+    }
+    .cc {
+        position: fixed;
+        top: 100%;
+        left: 10%;
+        width: 36vw;
+        height: 36vw;
+        overflow: hidden;
+        z-index: 5;
+    }
+    .cc img {
+        position: relative;
+        top: 20%;
+        left: 10%;
+        height: 25vw;
+        width: auto;
+        z-index: 10;
+        animation: rotar 5s ease-in;
+        animation-fill-mode: forwards;
+        z-index: 5;
+    }
+    #block1 {
+        position: fixed;
+        top: 165%;
+        left: 18%;
+        width: 12vw;
+        height: 20vw;
+        animation: rotar2 5s ease-in;
+        animation-fill-mode: forwards;
+        overflow: hidden;
+        z-index: 5;
+    }
+    #block2 {
+        position: fixed;
+        top: 165%;
+        left: 13%;
+        width: 12vw;
+        height: 20vw;
+        animation: rotar2 5s ease-in;
+        animation-fill-mode: forwards;
+        overflow: hidden;
+        z-index: 5;
+    }
+    #block3 {
+        position: fixed;
+        top: 175%;
+        left: 10%;
+        width: 17vw;
+        height: 20vw;
+        animation: rotar2 5s ease-in;
+        animation-fill-mode: forwards;
+        overflow: hidden;
+        z-index: 5;
+    }
+    #block4 {
+        position: fixed;
+        top: 185%;
+        left: 10%;
+        letter-spacing: 0%;
+        width: 17vw;
+        height: 20vw;
+        animation: rotar2 5s ease-in;
+        animation-fill-mode: forwards;
+        overflow: hidden;
+        z-index: 5;
+    }
+    #block5 {
+        position: fixed;
+        top: 175%;
+        left: 18%;
+        width: 17vw;
+        height: 20vw;
+        animation: rotar2 5s ease-in;
+        animation-fill-mode: forwards;
+        overflow: hidden;
+        z-index: 5;
+    }
+    p.pie {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        max-height: 4vw;
+        color: #e7e5e5;
+        padding: 1vw 0vw;
+        text-decoration: none;
+        display: block;
+        text-align: center;
+        display: block;
+        position: fixed;
+        top: 90%;
+        left: 50%;
+        margin-right: -50%;
+        margin-bottom: -50%;
+        transform: translate(-50%, -50%);
+        animation: Q 1s;
+        animation-timing-function: ease-in-out;
+        -webkit-animation-fill-mode: forwards;
+    }
+    #elem.running {
+        animation: ffadeOut 1s;
+        animation-fill-mode: forwards;
+    }
+    #elem.derunning {
+        animation: ffadeIn 1s;
+        animation-fill-mode: forwards;
+    }
+    #elem.runningg {
+        animation: spin 2s linear 0s infinite;
+    }
+    #elem2.running {
+        animation: encimaS 2s;
+        animation-fill-mode: forwards;
+    }
+    #xbrands.running {
+        animation: encima 2s;
+        animation-fill-mode: forwards;
+    }
+    #elem2.derunning {
+        animation: desencimaS 2s;
+        animation-fill-mode: forwards;
+    }
+    #xbrands.derunning {
+        animation: desencima 2s;
+        animation-fill-mode: forwards;
+    }
+    #elem3.running {
+        animation: encimaS 2s;
+        animation-fill-mode: forwards;
+    }
+    #xmark.running {
+        animation: encima 2s;
+        animation-fill-mode: forwards;
+    }
+    #elem3.derunning {
+        animation: desencimaS 2s;
+        animation-fill-mode: forwards;
+    }
+    #xmark.derunning {
+        animation: desencima 2s;
+        animation-fill-mode: forwards;
+    }
+    @keyframes spin {
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+    @keyframes encima {
+        0% {
+            transform: rotate(0deg);
+        }
+        100% {
+            transform: rotate(45deg);
+        }
+    }
+    @keyframes desencima {
+        0% {
+            transform: rotate(45deg);
+        }
+        100% {
+            transform: rotate(0deg);
+        }
+    }
+    @keyframes encimaS {
+        0% {
+            transform: scale(1);
+        }
+        100% {
+            transform: scale(1.15);
+        }
+    }
+    @keyframes desencimaS {
+        0% {
+            transform: scale(1.15);
+        }
+        100% {
+            transform: scale(1);
+        }
+    }
+    @keyframes fadeIn {
+        0% {
+            opacity: 0;
+        }
+        35% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    @keyframes fadeOut {
+        0% {
+            opacity: 1;
+        }
+        35% {
+            opacity: 1;
+        }
+        100% {
+            opacity: 0;
+        }
+    }
+    @keyframes ffadeIn {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    @keyframes ffadeOut {
+        0% {
+            opacity: 1;
+        }
+        100% {
+            opacity: 0;
+        }
+    }
+    @keyframes xAxis {
+        100% {
+            animation-timing-function: ease-in;
+            -moz-transform: translateX(8500px);
+            -webkit-transform: translateX(8500px);
+            -ms-transform: translateX(8500px);
+            transform: translateX(8500px);
+        }
+    }
+    @keyframes yAxis {
+        100% {
+            animation-timing-function: ease-out;
+            -moz-transform: translateY(-2500px);
+            -webkit-transform: translateY(-2500px);
+            -ms-transform: translateY(-2500px);
+            transform: translateY(-2500px);
+        }
+    }
+    @keyframes rotar {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(-40deg);
+        }
+    }
+    @keyframes rotar2 {
+        from {
+            transform: rotate(40deg);
+        }
+        to {
+            transform: rotate(0deg);
+        }
+    }
+    @keyframes aparecer {
+        from {
+            opacity: 0
+        }
+        to {
+            opacity: 1
+        }
+    }
+    @-webkit-keyframes cambioFondo {
+        0% {
+            background-color: rgb(0, 160, 200);
+        }
+        50.0% {
+            background-color: rgb(100, 215, 255);
+        }
+        /* your chosen 'mid' color */
+        100.0% {
+            background-color: white;
+        }
+    }
+}
+
+@media screen and ( max-width: 950px) {
+    html {
+        overflow-y: scroll;
+        overflow-x: hidden;
+        background: rgb(0, 160, 200);
+        animation: cambioFondo 5s;
+        animation-delay: 5s;
+        animation-timing-function: ease-in-out;
+        -webkit-animation-fill-mode: forwards;
+    }
+    p.let1 {
+        
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        top: 15%;
+        left: 50%;
+        width: 80vw;
+        display: block;
+        position: absolute;
+        margin-right: -50%;
+        margin-bottom: -50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        -moz-text-align-last: center;
+        text-align-last: center;
+        color: rgb(249, 173, 1);
+        font-size: 5vw;
+        opacity: 0;
+        animation: fadeIn 5s;
+        animation-delay: 5s;
+        animation-timing-function: ease-in-out;
+        -webkit-animation-fill-mode: forwards;
+        z-index: 10;    
+    }
+    p.let2 {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        top: 100%;
+        left: 50%;
+        width: 80vw;
+        display: block;
+        position: absolute;
+        margin-right: -50%;
+        margin-bottom: -50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        -moz-text-align-last: center;
+        text-align-last: center;
+        color: rgb(17, 191, 209);
+        font-size: 5vw;
+        opacity: 0;
+        animation: fadeIn 5s;
+        animation-delay: 5s;
+        animation-timing-function: ease-in-out;
+        -webkit-animation-fill-mode: forwards;
+        background: fff;
+        z-index=20;
+    }
+    span.bd {
+        font-weight: bold;
+    }
+    div.flechas {
+        position: absolute;
+        display: block;
+        left: 15%;
+        top: 25%;
+        width: 70vw;
+        height: 200vw;
+        z-index: 10;
+        opacity: 0;
+        animation: fadeIn 5s;
+        animation-delay: 5s;
+        animation-timing-function: ease-in-out;
+        -webkit-animation-fill-mode: forwards;
+        z-index: 0;
+    }
+    img.flecha1 {
+        position: relative;
+        display: inline-block;
+        left: 45%;
+        top: 0%;
+        width: 5vw;
+        z-index: 0;
+    }
+    img.flecha2 {
+        position: relative;
+        display: inline-block;
+        left: 37%;
+        top: 60%;
+        width: 5vw;
+        z-index: 10;
+    }
+    div.Contenedor {
+        position: absolute;
+        top: 30%;
+        left: 10%;
+        width: 80vw;
+        height: 80vw;
+        z-index: 10;
+    }
+    div.Contenedor2 {
+        position: absolute;
+        top: 115%;
+        left: 10%;
+        width: 80vw;
+        height: 80vw;
+        z-index: 10;
+    }
+    div.Contenedor3 {
+        
+        position: absolute;
+        top: 58%;
+        left: 35%;
+        width: 30vw;
+        height: 30vw;
+        z-index: 10;
+    }
+    div.equ2 {
+        opacity: 0;
+        margin-right: -50%;
+        margin-bottom: -50%;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+        position: absolute;
+        width: 30.5vw;
+        animation: fadeIn 5s;
+        animation-delay: 5s;
+        animation-timing-function: ease-in-out;
+        -webkit-animation-fill-mode: forwards;
+        z-index: 10;
+    }
+    div.equ1 {
+        opacity: 0;
+        margin-right: -50%;
+        margin-bottom: -50%;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+        position: absolute;
+        width: 30.5vw;
+        animation: fadeIn 5s;
+        animation-delay: 5s;
+        animation-timing-function: ease-in-out;
+        -webkit-animation-fill-mode: forwards;
+        z-index: 10;
+    }
+    .marketing {
+        margin: 0;
+        top: 48%;
+        left: 65%;
+        width: 30.5vw;
+        z-index: 3;
+        animation: fadeIn 5s;
+        animation-delay: 5s;
+        animation-timing-function: ease-in-out;
+        -webkit-animation-fill-mode: forwards;
+        z-index: 2;
+    }
+    .branding {
+        margin: 0;
+        display: block;
+        padding: 0;
+        top: 48%;
+        left: 65%;
+        width: 30.5vw;
+        z-index: 3;
+        animation: fadeIn 5s;
+        animation-delay: 5s;
+        animation-timing-function: ease-in-out;
+        -webkit-animation-fill-mode: forwards;
+        z-index: 2;
+    }
+    div.bra {
+        margin: 0;
+        display: block;
+        padding: 0;
+        line-height: 1;
+        display: block;
+        position: absolute;
+        z-index: 1;
+    }
+    div.bra2 {
+        padding: 0;
+        line-height: 1;
+        display: block;
+        position: relative;
+        width: 80vw;
+        height: 80vw;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        z-index: 1;
+    }
+    img.xbrand {
+        padding: 0;
+        line-height: 1;
+        position: relative;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        width: 80vw;
+        height: 80vw;
+        opacity: 0;
+        animation: fadeIn 5s;
+        animation-delay: 5s;
+        animation-timing-function: ease-in-out;
+        -webkit-animation-fill-mode: forwards;
+        z-index: 1;
+    }
+    div.mark {
+        display: block;
+        position: absolute;
+        width: 80vw;
+        height: 80vw;
+        margin: auto;
+        z-index: 1;
+    }
+    div.mark2 {
+        display: block;
+        position: absolute;
+        width: 80vw;
+        height: 80vw;
+        top: 0%;
+        left: 0%;
+        z-index: 1;
+    }
+    img.xmark {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        width: 80vw;
+        opacity: 0;
+        animation: fadeIn 5s;
+        animation-delay: 5s;
+        animation-timing-function: ease-in-out;
+        -webkit-animation-fill-mode: forwards;
+        z-index: 1;
+    }
+    div.R360 {
+        display: block;
+        position: absolute;
+        top: 50%;
+        bottom: 50%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        z-index: 0;
+    }
+    img.Q360 {
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        margin-bottom: -50%;
+        transform: translate(-50%, -50%);
+        width: 9vw;
+        opacity: 0;
+        animation: fadeIn 5s;
+        animation-delay: 5s;
+        animation-timing-function: ease-in-out;
+        -webkit-animation-fill-mode: forwards;
+        z-index: 0;
+    }
+    div.pepas {
+        animation: xAxis 20s ease-in, yAxis 10s ease-in !important;
+        animation-fill-mode: forwards;
+    }
+    .pepas img {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: auto;
+        z-index: 5;
+    }
+    .cc {
+        position: fixed;
+        top: 100%;
+        left: 10%;
+        width: 36vw;
+        height: 36vw;
+        overflow: hidden;
+        z-index: 5;
+    }
+    .cc img {
+        position: relative;
+        top: 20%;
+        left: 10%;
+        height: 25vw;
+        width: auto;
+        z-index: 10;
+        animation: rotar 5s ease-in;
+        animation-fill-mode: forwards;
+        z-index: 5;
+    }
+    #block1 {
+        position: fixed;
+        top: 165%;
+        left: 18%;
+        width: 12vw;
+        height: 20vw;
+        animation: rotar2 5s ease-in;
+        animation-fill-mode: forwards;
+        overflow: hidden;
+        z-index: 5;
+    }
+    #block2 {
+        position: fixed;
+        top: 165%;
+        left: 13%;
+        width: 12vw;
+        height: 20vw;
+        animation: rotar2 5s ease-in;
+        animation-fill-mode: forwards;
+        overflow: hidden;
+        z-index: 5;
+    }
+    #block3 {
+        position: fixed;
+        top: 175%;
+        left: 10%;
+        width: 17vw;
+        height: 20vw;
+        animation: rotar2 5s ease-in;
+        animation-fill-mode: forwards;
+        overflow: hidden;
+        z-index: 5;
+    }
+    #block4 {
+        position: fixed;
+        top: 185%;
+        left: 10%;
+        letter-spacing: 0%;
+        width: 17vw;
+        height: 20vw;
+        animation: rotar2 5s ease-in;
+        animation-fill-mode: forwards;
+        overflow: hidden;
+        z-index: 5;
+    }
+    #block5 {
+        position: fixed;
+        top: 175%;
+        left: 18%;
+        width: 17vw;
+        height: 20vw;
+        animation: rotar2 5s ease-in;
+        animation-fill-mode: forwards;
+        overflow: hidden;
+        z-index: 5;
+    }
+    p.pie {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        max-height: 4vw;
+        color: #e7e5e5;
+        padding: 1vw 0vw;
+        text-decoration: none;
+        display: block;
+        text-align: center;
+        display: block;
+        position: fixed;
+        top: 90%;
+        left: 50%;
+        margin-right: -50%;
+        margin-bottom: -50%;
+        transform: translate(-50%, -50%);
+        animation: Q 1s;
+        animation-timing-function: ease-in-out;
+        -webkit-animation-fill-mode: forwards;
+    }
+    #elem.running {
+        animation: ffadeOut 1s;
+        animation-fill-mode: forwards;
+    }
+    #elem.derunning {
+        animation: ffadeIn 1s;
+        animation-fill-mode: forwards;
+    }
+    #elem.runningg {
+        animation: spin 2s linear 0s infinite;
+    }
+    #elem2.running {
+        animation: encimaS 2s;
+        animation-fill-mode: forwards;
+    }
+    #xbrands.running {
+        animation: encima 2s;
+        animation-fill-mode: forwards;
+    }
+    #elem2.derunning {
+        animation: desencimaS 2s;
+        animation-fill-mode: forwards;
+    }
+    #xbrands.derunning {
+        animation: desencima 2s;
+        animation-fill-mode: forwards;
+    }
+    #elem3.running {
+        animation: encimaS 2s;
+        animation-fill-mode: forwards;
+    }
+    #xmark.running {
+        animation: encima 2s;
+        animation-fill-mode: forwards;
+    }
+    #elem3.derunning {
+        animation: desencimaS 2s;
+        animation-fill-mode: forwards;
+    }
+    #xmark.derunning {
+        animation: desencima 2s;
+        animation-fill-mode: forwards;
+    }
+    @keyframes spin {
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+    @keyframes encima {
+        0% {
+            transform: rotate(0deg);
+        }
+        100% {
+            transform: rotate(45deg);
+        }
+    }
+    @keyframes desencima {
+        0% {
+            transform: rotate(45deg);
+        }
+        100% {
+            transform: rotate(0deg);
+        }
+    }
+    @keyframes encimaS {
+        0% {
+            transform: scale(1);
+        }
+        100% {
+            transform: scale(1.15);
+        }
+    }
+    @keyframes desencimaS {
+        0% {
+            transform: scale(1.15);
+        }
+        100% {
+            transform: scale(1);
+        }
+    }
+    @keyframes fadeIn {
+        0% {
+            opacity: 0;
+        }
+        35% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    @keyframes fadeOut {
+        0% {
+            opacity: 1;
+        }
+        35% {
+            opacity: 1;
+        }
+        100% {
+            opacity: 0;
+        }
+    }
+    @keyframes ffadeIn {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    @keyframes ffadeOut {
+        0% {
+            opacity: 1;
+        }
+        100% {
+            opacity: 0;
+        }
+    }
+    @keyframes xAxis {
+        100% {
+            animation-timing-function: ease-in;
+            -moz-transform: translateX(8500px);
+            -webkit-transform: translateX(8500px);
+            -ms-transform: translateX(8500px);
+            transform: translateX(8500px);
+        }
+    }
+    @keyframes yAxis {
+        100% {
+            animation-timing-function: ease-out;
+            -moz-transform: translateY(-2500px);
+            -webkit-transform: translateY(-2500px);
+            -ms-transform: translateY(-2500px);
+            transform: translateY(-2500px);
+        }
+    }
+    @keyframes rotar {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(-40deg);
+        }
+    }
+    @keyframes rotar2 {
+        from {
+            transform: rotate(40deg);
+        }
+        to {
+            transform: rotate(0deg);
+        }
+    }
+    @keyframes aparecer {
+        from {
+            opacity: 0
+        }
+        to {
+            opacity: 1
+        }
+    }
+    @-webkit-keyframes cambioFondo {
+        0% {
+            background-color: rgb(0, 160, 200);
+        }
+        50.0% {
+            background-color: rgb(100, 215, 255);
+        }
+        /* your chosen 'mid' color */
+        100.0% {
+            background-color: white;
+        }
+    }
+}

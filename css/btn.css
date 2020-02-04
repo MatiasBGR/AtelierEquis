@@ -1,0 +1,234 @@
+@media screen and ( min-width: 950px) {
+    .dropbtn {
+        opacity: 0;
+        width: 12vw;
+        height: 5vw;
+        position: relative;
+        top: 2vw;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        background-color: white;
+        border: none;
+        animation: btnInicio 4s;
+        animation-timing-function: ease-in-out;
+        -webkit-animation-fill-mode: forwards;
+        -webkit-webkit-transition: -webkit-transform .8s ease-in-out;
+        -ms-transition: -ms-transform .8s ease-in-out;
+        transition: transform .8s ease-in-out;
+        z-index: 10;
+        background: rgba(255, 255, 255, 0);
+    }
+    /* Contenedor div <div> - necesario para posicionar el contenido dropdown */
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        padding: 0, 0;
+        height: 1vw;
+        z-index: 9;
+        background: rgba(255, 255, 255, 0);
+    }
+    /* Contenido DropDown (Oculto por defecto) */
+    .dropdown-content {
+        /*display: none;*/
+        position: relative;
+        margin: 0;
+        padding: 0vw, 0vw;
+        min-width: 0vw;
+        overflow: hidden;
+        max-height: 0;
+        transition: max-height 1.2s ease;
+        z-index: 8;
+        animation: bajar 4s;
+        animation-timing-function: ease-in-out;
+        -webkit-animation-fill-mode: forwards;
+    }
+    /* Links dentro del Dropdown */
+    .dropdown-content a {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        max-height: 4vw;
+        color: #e7e5e5;
+        padding: 1vw 0vw;
+        text-decoration: none;
+        display: block;
+        text-align: center;
+    }
+    /* Cambiar el color del dropdown con hover */
+    .let {
+        font-weight: normal;
+        font-size: .9vw;
+    }
+    .Letra1,
+    .Letra2,
+    .Letra3 {
+        opacity: 0;
+        animation: btnInicio 4s;
+        animation-timing-function: ease-in-out;
+        -webkit-animation-fill-mode: forwards;
+        font-size: 1vw;
+        font-weight: bolder;
+    }
+    .dropdown-content a:hover .Letra1 {
+        color: rgb(17, 191, 209);
+    }
+    .dropdown-content a:hover .Letra2 {
+        color: rgb(227, 16, 78);
+    }
+    .dropdown-content a:hover .Letra3 {
+        color: rgb(249, 173, 1);
+    }
+    div.dropdown img {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        margin-bottom: -50%;
+        transform: translate(-50%, -50%);
+        opacity: .5;
+    }
+    .dropdown:hover img {
+        -webkit-filter: brightness(100%);
+        transition-duration: .5s;
+        opacity: 1;
+    }
+    @keyframes btnInicio {
+        0% {
+            opacity: 0;
+            transform: rotate(45deg);
+        }
+        75% {
+            opacity: 1;
+            transform: rotate(45deg);
+        }
+        100% {
+            opacity: 1;
+            transform: rotate(0deg);
+        }
+    }
+    @keyframes bajar {
+        75% {
+            max-height: 0vh;
+        }
+        100% {
+            max-height: 50vh;
+        }
+    }
+}
+
+@media screen and ( max-width: 950px) {
+    .dropbtn {
+        opacity: 0;
+        width: 5vw;
+        height: 5vw;
+        position: relative;
+        top: 2vw;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        border: none;
+        animation: btnInicio 6s;
+        animation-timing-function: ease-in-out;
+        -webkit-animation-fill-mode: forwards;
+        -webkit-webkit-transition: -webkit-transform .8s ease-in-out;
+        -ms-transition: -ms-transform .8s ease-in-out;
+        transition: transform .8s ease-in-out;
+        z-index: 10;
+        background: rgba(0, 0, 0, 0);
+    }
+    /* Contenedor div <div> - necesario para posicionar el contenido dropdown */
+    .dropdown {
+        position: relative;
+        display: block;
+        padding: 0, 0;
+        height: 10vw;
+        width: 95vw;
+        z-index: 9;
+    }
+    /* Contenido DropDown (Oculto por defecto) */
+    .dropdown-content {
+        position: absolute;
+        top: 0;
+        left: -110vw;
+        width: 95vw;
+        height: 10vh;
+        -webkit-animation: slide 2s forwards;
+        -webkit-animation-delay: 4s;
+        animation: slide 2s forwards;
+        animation-delay: 4s;
+        text-align: justify;
+        text-align-last: center;
+    }
+    /* Links dentro del Dropdown */
+    .dropdown-content a {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        text-decoration: none;
+        display: inline-block;
+        text-align: center;
+    }
+    /* Cambiar el color del dropdown con hover */
+    /* Cambiar el contenido de fondo del dropdow cuando se muestra*/
+    .let {
+        font-weight: normal;
+        font-size: 10px;
+    }
+    .Letra1,
+    .Letra2,
+    .Letra3 {
+        opacity: 1;
+        font-size: 10px;
+        font-weight: bolder;
+    }
+    .dropdown-content .Letra1 {
+        color: rgb(17, 191, 209);
+    }
+    .dropdown-content .Letra2 {
+        color: rgb(227, 16, 78);
+    }
+    .dropdown-content .Letra3 {
+        color: rgb(249, 173, 1);
+    }
+    div.dropdown img {
+        margin: 0;
+        position: absolute;
+        width: 10vw;
+        height: auto;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        margin-bottom: -50%;
+        transform: translate(-50%, -50%);
+        opacity: .5;
+    }
+    .dropdown:hover img {
+        -webkit-filter: brightness(100%);
+        transition-duration: .5s;
+        opacity: 1;
+    }
+    @keyframes btnInicio {
+        0% {
+            opacity: 0;
+            transform: rotate(45deg);
+        }
+        75% {
+            opacity: 0;
+            transform: rotate(45deg);
+        }
+        100% {
+            opacity: 1;
+            transform: rotate(0deg);
+        }
+    }
+    @-webkit-keyframes slide {
+        100% {
+            left: 0;
+        }
+    }
+    @keyframes slide {
+        100% {
+            left: 0;
+        }
+    }
+}

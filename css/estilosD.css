@@ -1,0 +1,141 @@
+html {  
+    background: rgb(0,0,0);
+  }
+   .backvid{
+      display:none;
+      }
+
+.hablanos{
+  transform: translate3d(0,0,0);
+  width: 87vw;
+  height: 7vh; 
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  position: absolute;
+  font-size: 2vw;
+  left: 30%;
+  top:50%;
+  z-index: 5;
+  color: rgb(227,16,78);
+  opacity: 0;
+    -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 4s; /* Firefox < 16 */
+        -ms-animation: fadein 4s; /* Internet Explorer */
+         -o-animation: fadein 4s; /* Opera < 12.1 */
+            animation: fadein 4s;
+     -webkit-animation-delay: 4s;
+       -moz-animation-delay:  4s; /* Firefox < 16 */
+        -ms-animation-delay:  4s; /* Internet Explorer */
+         -o-animation-delay:  4s; /* Opera < 12.1 */
+            animation-delay:  4s; 
+       -moz-animation-fill-mode: forwards;  /* Firefox < 16 */
+        -ms-animation-fill-mode: forwards;  /* Internet Explorer */
+         -o-animation-fill-mode: forwards;  /* Opera < 12.1 */
+            animation-fill-mode: forwards; 
+}
+.hablanos span{
+  font-weight: bold;
+}
+.formulario{
+  position: absolute;
+  width: 80vw;
+  height: 40vh;
+  left: 10%;
+  top: 120%;
+  z-index: 10;
+}
+
+.c1{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+     color: rgb(227,16,78);
+    font-size: 6vw;
+    position: absolute;
+    top: 109% !important;
+    left: 6% !important;
+}
+.c2{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+     color: rgb(227,16,78);
+    font-size: 6vw;
+    position: absolute;
+    font-weight: normal;
+    top: 109% !important;
+    left: 92% !important;
+}
+
+.formulario * {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(227,16,78);
+    font-size: 1vw;
+    font-weight: bold;
+}
+input[type=text] {
+    position: absolute;
+    top: 15%;
+    left: 0%;
+    width: 30vw;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #E3104E;
+
+}
+
+input[type=email] {
+    position: absolute;
+    top: 15%;
+    left: 61%;
+    width: 30vw;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #E3104E;
+}
+textarea {
+    overflow: hidden;
+    position: absolute;
+    top: 30%;
+    left: 0%;
+    width: 79vw;
+    height: 1vw;
+    background: transparent;
+    border: none;
+    resize: none;
+     border-bottom: 1px solid #E3104E;
+
+}
+input[type=submit] {
+    position: absolute;
+    top: 45%;
+    left: 47%;
+    background: transparent;
+    border: none;
+    font-weight: 900;
+
+}
+
+div.isotipo3 img {
+      margin: 0;
+      position: absolute;
+      top: 47.5%;
+      left: 50%;
+      margin-right: -50%;
+      margin-bottom: -50%;
+      transform: translate(-50%, -50%);
+      width: 40vw;
+      z-index: 2;
+      filter: brightness(100%);
+     
+    }
+
+
+@keyframes fadein {
+    from { opacity: 0;
+           transform: scale(.1, .1);
+            top:  50vh;
+            left: 30vw;
+     }
+    to   { opacity: 1;
+           transform: scale(1, 1);
+           top: 80vh;
+           left: 6vw;
+     }
+}

@@ -1,0 +1,373 @@
+
+
+div.isotipo {
+	-webkit-backface-visibility: hidden;
+    width: 10px;
+    height: 10px;
+    background-color: red;
+
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    animation: inicio 5s;
+    animation-timing-function: ease-in-out;
+    }
+img{
+    -webkit-font-smoothing: antialiased;
+}
+
+div.isotipo2 {
+    display: block;
+    opacity: 1;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    animation: iso2 10s;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-fill-mode: forwards;
+    }
+    div.isotipo2 img {
+      display: block;
+      position:absolute;
+      width: 40vw;
+      height: auto;
+    }
+    div.isotipo3 {
+    display: block;
+    opacity: 0;
+    width: 20vw;
+    height: 20vw;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    animation: iso3 10s;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-fill-mode: forwards;
+    z-index: 2;
+    }
+    div.isotipo img {
+      width: 30vw;
+      height: auto;
+    }
+
+div.isotipo img, div.isotipo2 img,  div.dropdown img, div.DC img{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    margin-bottom: -50%;
+    transform: translate(-50%, -50%);
+  
+}
+  div.isotipo3 img {
+      display: block;
+      margin: 0;
+      position: absolute;
+      top: 47.5%;
+      left: 50%;
+      margin-right: -50%;
+      margin-bottom: -50%;
+      transform: translate(-50%, -50%);
+      width: 40vw;
+      z-index: 2;
+      filter: brightness(100%);
+    }
+
+div.DC  {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.5vw;
+    color: rgb(227,16,78);
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    margin-right: -50%;
+    z-index: 3;
+    margin-bottom: -50%;
+    transform: translate(-50%, -50%);
+     animation: dc 14s;
+    animation-timing-function: ease-in-out;
+}
+div.DC article i{
+  font-size: 2vw;
+  font-weight: bolder;
+  color: #e7e5e5;
+}
+div.DC article span{
+  font-size: 1.6vw;
+  font-weight: bolder;
+}
+div.DC img{
+  width: 5vw;
+  left: -20%;
+}
+
+div.Texto article {
+  visibility: hidden;
+  
+  font-size: .9vw;
+  width: 37vw;
+  height:  10vw;
+  overflow: hidden; 
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  margin-right: -50%;
+  z-index: 3;
+  margin-bottom: -50%;
+  transform: translate(-50%, -50%);
+  
+}
+div.Texto *{
+  color: rgb(227,16,78);
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+div.Texto article p.a1{
+  position: absolute;
+  top: 0%;
+  left: 15%;
+  overflow: hidden;
+  white-space: nowrap; /* Keeps the content on a single line */
+  animation: typing 5s steps(260, end);
+  animation-delay: 3s; 
+  animation-fill-mode: forwards
+}
+div.Texto article p.a2{
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  overflow: hidden; 
+  white-space: nowrap; /* Keeps the content on a single line */
+  animation: typing 5s steps(260, end);
+  animation-delay: 7s;
+  animation-fill-mode: forwards
+}
+div.Texto article p.a3{
+  position: absolute;
+  top: 40%;
+  left: 5%;
+  overflow: hidden; 
+  white-space: nowrap; /* Keeps the content on a single line */
+  animation: typing 5s steps(260, end);
+  animation-delay: 11s;
+  animation-fill-mode: forwards
+}
+div.Texto article p.a4{
+  position: absolute;
+  top: 60%;
+  left: 10%;
+  overflow: hidden; 
+  white-space: nowrap; /* Keeps the content on a single line */
+  animation: typing 5s steps(260, end);
+  animation-delay: 15s;
+  animation-fill-mode: forwards
+}
+div.Texto article p.a5{
+  position: absolute;
+  top: 80%;
+  left: 15%;
+  overflow: hidden; 
+  white-space: nowrap; /* Keeps the content on a single line */
+  animation: typing 5s steps(260, end);
+  animation-delay: 19s;
+  animation-fill-mode: forwards
+}
+
+div.Texto2 article {
+  visibility: hidden;
+  color: rgb(196,0,68);
+  font-weight: bold;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: .9vw;
+  width: 35vw;
+  height:  30vw;
+  overflow: hidden; 
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  margin-right: -50%;
+  z-index: 3;
+  margin-bottom: -50%;
+  transform: translate(-50%, -50%);
+  
+}
+
+div.Texto2 article p.a1{
+  position: absolute;
+  top:  5%;
+  left: 26%;
+  overflow: hidden; 
+  font-size:  1.8vw;
+  white-space: nowrap; /* Keeps the content on a single line */
+  animation: 
+  typing .8s steps(60, end);
+  animation-delay: 2s; 
+  animation-fill-mode: forwards
+}
+div.Texto2 article p.a2{
+  color: grey;
+  position: absolute;
+  top:  15%;
+  left: 33%;
+  overflow: hidden; 
+  white-space: nowrap; /* Keeps the content on a single line */
+  animation: 
+  typing .8s steps(60, end);
+  animation-delay: 2s;
+  animation-fill-mode: forwards
+}
+div.Texto2 article p.a3{
+  color: grey;
+  position: absolute;
+  top:  22%;
+  left: 43%;
+  overflow: hidden; 
+  white-space: nowrap; /* Keeps the content on a single line */
+  animation: 
+  typing .8s steps(60, end);
+  animation-delay: 2s;
+  animation-fill-mode: forwards
+}
+div.Texto2 article p.a4{
+  color: grey;
+  position: absolute;
+  top:  29%;
+  left: 38%;
+  overflow: hidden; 
+  white-space: nowrap; /* Keeps the content on a single line */
+  animation: 
+  typing .8s steps(60, end);
+  animation-delay: 2s;
+  animation-fill-mode: forwards
+}
+div.Texto2 article p.a5{
+  position: absolute;
+  top:  45%;
+  left: 29%;
+  overflow: hidden; 
+  font-size:  1.8vw;
+  white-space: nowrap; /* Keeps the content on a single line */
+  animation: 
+  typing .8s steps(60, end); 
+  animation-delay: 2.7s; 
+  animation-fill-mode: forwards
+}
+div.Texto2 article p.a6{
+  color: grey;
+  position: absolute;
+  top:  55%;
+  left: 30%;
+  overflow: hidden; 
+  white-space: nowrap; /* Keeps the content on a single line */
+  animation: 
+  typing .8s steps(60, end);
+  animation-delay: 2.7s;
+  animation-fill-mode: forwards
+}
+div.Texto2 article p.a7{
+  color: grey;
+  position: absolute;
+  top:  62%;
+  left: 42%;
+  overflow: hidden; 
+  white-space: nowrap; /* Keeps the content on a single line */
+  animation: 
+  typing .8s steps(60, end);
+  animation-delay: 2.7s;
+  animation-fill-mode: forwards
+}
+div.Texto2 article p.a8{
+  color: grey;
+  position: absolute;
+  top:  69%;
+  left: 38%;
+  overflow: hidden; 
+  white-space: nowrap; /* Keeps the content on a single line */
+  animation: 
+  typing .8s steps(60, end);
+  animation-delay: 2.7s;
+  animation-fill-mode: forwards
+}
+
+div.Texto2 article p.a9{
+  font-size: 1.5vw;
+  font-weight: bolder;
+  position: absolute;
+  top: 80%;
+  left: 33%;
+  overflow: hidden; 
+  white-space: nowrap; /* Keeps the content on a single line */
+  animation: 
+  typing .8s steps(60, end);
+  animation-delay: 3.4s;
+  animation-fill-mode: forwards
+}
+
+@keyframes inicio{
+  0%{
+    opacity: 0;
+    transform: rotate(45deg);
+  }
+  25%{
+    opacity: 1;
+    transform: rotate(45deg);
+  }
+  100%{
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes iso2{
+  0%{
+    transform: scale(0.75);
+    opacity: 1;
+  }
+  50%{
+    transform: scale(1);
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+@keyframes iso3{
+  0%{
+    opacity: 0;
+  }
+  50%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+@keyframes dc{
+  0%{
+    opacity: 0;
+  }
+  80%{
+    opacity: 0;
+    size: .4;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+@keyframes typing {
+  from { width: 0; visibility: visible; }
+  to { width: 100%; visibility: visible; }
+}

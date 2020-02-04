@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Book - Nuestros trabajos </title>
+    <link rel="icon" type="image/vnd.microsoft.icon" href="../Iconos/x.ico" sizes="16x16 32x32">
+    <link rel="stylesheet" href="../css/Boock.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+
+<body>
+
+    <div class="backBtn">
+        <a href="../index.html">
+            <span class="line tLine"></span>
+            <span class="line mLine"></span>
+            <span class="label">Volver</span>
+            <span class="line bLine"></span>
+    </div>
+
+    <div class="container">
+        <h3 class="title"> -- 1 -- </h3>
+
+        <div class="content but" id="Texto1">
+            <a class="button" href="#popup1">
+                <div class="content-overlay"></div>
+                <img class="content-image" src="../ImagenesBook/Imagen1.png">
+
+                <div class="content-details fadeIn-top">
+                    <h3 id="textoTitulo1"></h3>
+                    <p id="textoDescripcion1"></p>
+                    <script>
+                        $("#textoTitulo1").load("../TextosBook/TituloTexto1.txt");
+                        $("#textoDescripcion1").load("../TextosBook/DescripcionTexto1.txt");
+                    </script>
+
+
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="container">
+        <h3 class="title"> -- 2 -- </h3>
+        <div class="content but" id="Texto2">
+            <a class="button" href="#popup2">
+                <div class="content-overlay"></div>
+                <img class="content-image" src="../ImagenesBook/Imagen2.png">
+                <div class="content-details fadeIn-top">
+                    <h3 id="textoTitulo2"></h3>
+                    <p id="textoDescripcion2"></p>
+                    <script>
+                        $("#textoTitulo2").load("../TextosBook/TituloTexto2.txt");
+                        $("#textoDescripcion2").load("../TextosBook/DescripcionTexto2.txt");
+                    </script>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="container">
+        <h3 class="title"> -- 3 -- </h3>
+        <div class="content but" id="Texto3">
+            <a class="button" href="#popup3">
+                <div class="content-overlay"></div>
+                <img class="content-image" src="../ImagenesBook/Imagen3.png">
+                <div class="content-details fadeIn-top">
+                    <h3 id="textoTitulo3"></h3>
+                    <p id="textoDescripcion3"></p>
+                    <script>
+                        $("#textoTitulo3").load("../TextosBook/TituloTexto3.txt");
+                        $("#textoDescripcion3").load("../TextosBook/DescripcionTexto3.txt");
+                    </script>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="container">
+        <h3 class="title"> -- 4 -- </h3>
+        <div class="content but" id="Texto4">
+            <a class="button" href="#popup4">
+                <div class="content-overlay"></div>
+                <img class="content-image" src="../ImagenesBook/Imagen4.png">
+                <div class="content-details fadeIn-top">
+                    <h3 id="textoTitulo4"></h3>
+                    <p id="textoDescripcion4"></p>
+                    <script>
+                        $("#textoTitulo4").load("../TextosBook/TituloTexto4.txt");
+                        $("#textoDescripcion4").load("../TextosBook/DescripcionTexto4.txt");
+                    </script>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="container">
+        <h3 class="title"> -- 5 -- </h3>
+        <div class="content but" id="Texto5">
+            <a class="button" href="#popup5">
+                <div class="content-overlay"></div>
+                <img class="content-image" src="../ImagenesBook/Imagen5.png">
+                <div class="content-details fadeIn-top">
+                    <h3 id="textoTitulo5"></h3>
+                    <p id="textoDescripcion5"></p>
+                    <script>
+                        $("#textoTitulo5").load("../TextosBook/TituloTexto5.txt");
+                        $("#textoDescripcion5").load("../TextosBook/DescripcionTexto5.txt");
+                    </script>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="container">
+        <h3 class="title"> -- 6 -- </h3>
+        <div class="content but" id="Texto6">
+            <a class="button" href="#popup6">
+                <div class="content-overlay"></div>
+                <img class="content-image" src="../ImagenesBook/Imagen6.png">
+                <div class="content-details fadeIn-top">
+                    <h3 id="textoTitulo6"></h3>
+                    <p id="textoDescripcion6"></p>
+                    <script>
+                        $("#textoTitulo6").load("../TextosBook/TituloTexto6.txt");
+                        $("#textoDescripcion6").load("../TextosBook/DescripcionTexto6.txt");
+                    </script>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div id="popup1" class="overlay">
+        <div class="popup">
+            <h2 id="Titulo1"></h2>
+            <a class="close" href="#">&times;</a>
+            <div class="content">
+
+                <p class="content" id="textoContenido1"></p>
+                <img class="content-image" src="../ImagenesBook/Imagen1.png">
+            </div>
+            <script>
+                $("#Titulo1").load("../TextosBook/TituloTexto1.txt");
+                $("#textoContenido1").load("../TextosBook/Texto1.txt");
+            </script>
+        </div>
+    </div>
+
+    <div id="popup2" class="overlay">
+        <div class="popup">
+            <h2 id="Titulo2"></h2>
+            <a class="close" href="#">&times;</a>
+            <div class="content">
+
+                <p class="content" id="textoContenido2"></p>
+                <img class="content-image" src="../ImagenesBook/Imagen2.png">
+            </div>
+            <script>
+                $("#Titulo2").load("../TextosBook/TituloTexto2.txt");
+                $("#textoContenido2").load("../TextosBook/Texto2.txt");
+            </script>
+        </div>
+    </div>
+
+    <div id="popup3" class="overlay">
+        <div class="popup">
+            <h2 id="Titulo3"></h2>
+            <a class="close" href="#">&times;</a>
+            <div class="content">
+
+                <p class="content" id="textoContenido3"></p>
+                <img class="content-image" src="../ImagenesBook/Imagen3.png">
+            </div>
+            <script>
+                $("#Titulo3").load("../TextosBook/TituloTexto3.txt");
+                $("#textoContenido3").load("../TextosBook/Texto3.txt");
+            </script>
+        </div>
+    </div>
+    <div id="popup4" class="overlay">
+        <div class="popup">
+            <h2 id="Titulo4"></h2>
+            <a class="close" href="#">&times;</a>
+            <div class="content">
+
+                <p class="content" id="textoContenido4"></p>
+                <img class="content-image" src="../ImagenesBook/Imagen4.png">
+            </div>
+            <script>
+                $("#Titulo4").load("../TextosBook/TituloTexto4.txt");
+                $("#textoContenido4").load("../TextosBook/Texto4.txt");
+            </script>
+        </div>
+    </div>
+    <div id="popup5" class="overlay">
+        <div class="popup">
+            <h2 id="Titulo5"></h2>
+            <a class="close" href="#">&times;</a>
+            <div class="content">
+
+                <p class="content" id="textoContenido5"></p>
+                <img class="content-image" src="../ImagenesBook/Imagen5.png">
+            </div>
+            <script>
+                $("#Titulo5").load("../TextosBook/TituloTexto5.txt");
+                $("#textoContenido5").load("../TextosBook/Texto5.txt");
+            </script>
+        </div>
+    </div>
+    <div id="popup6" class="overlay">
+        <div class="popup">
+            <h2 id="Titulo6"></h2>
+            <a class="close" href="#">&times;</a>
+            <div class="content">
+
+                <p class="content" id="textoContenido6"></p>
+                <img class="content-image" src="../ImagenesBook/Imagen6.png">
+            </div>
+            <script>
+                $("#Titulo6").load("../TextosBook/TituloTexto6.txt");
+                $("#textoContenido6").load("../TextosBook/Texto6.txt");
+            </script>
+        </div>
+    </div>
+
+
+
+    <script src="../js/jsBook.js"></script>
+</body>
+
+</html>
